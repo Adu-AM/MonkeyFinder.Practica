@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyFinder.Core", "MonkeyFinder.Core\MonkeyFinder.Core.csproj", "{7625E31A-FE70-4C8E-87C6-992B6962FACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyFinder.Infrastructure.DataAccess", "MonkeyFinder.Infrastructure.DataAccess\MonkeyFinder.Infrastructure.DataAccess.csproj", "{04252055-492B-41AC-9BE7-07B1B8FDCC8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7625E31A-FE70-4C8E-87C6-992B6962FACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7625E31A-FE70-4C8E-87C6-992B6962FACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7625E31A-FE70-4C8E-87C6-992B6962FACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04252055-492B-41AC-9BE7-07B1B8FDCC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04252055-492B-41AC-9BE7-07B1B8FDCC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04252055-492B-41AC-9BE7-07B1B8FDCC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04252055-492B-41AC-9BE7-07B1B8FDCC8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C055FD12-36D7-4D4F-95DA-34AB7B923366} = {9F54A2FA-205D-4BF2-B067-47A3293684C2}
 		{7625E31A-FE70-4C8E-87C6-992B6962FACD} = {B5AEC625-575D-4FF6-A272-6B4A0F4F6B47}
+		{04252055-492B-41AC-9BE7-07B1B8FDCC8B} = {B6DC0EB3-12AA-4873-98FF-E7B1FC580C80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC22990-B430-459E-B8C6-1B203D24855A}
